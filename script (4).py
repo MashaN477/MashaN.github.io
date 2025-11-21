@@ -1,4 +1,6 @@
-# My Personal Blog Website 🌟
+
+# Create a README file that explains the project
+readme_content = """# My Personal Blog Website 🌟
 
 A beautiful, modern personal blog to share your life experiences and stories!
 
@@ -126,3 +128,24 @@ Feel free to use this template for your own personal website!
 **Happy blogging!** 🎉
 
 Made with ❤️ for aspiring bloggers and job seekers
+"""
+
+with open('README.md', 'w') as f:
+    f.write(readme_content)
+
+print("✓ Created README.md")
+print("\n" + "="*60)
+print("All files created successfully! 🎉")
+print("="*60)
+print("\nYou now have these files:")
+print("  1. index.html (homepage)")
+print("  2. about.html (about page)")
+print("  3. blog.html (blog listing)")
+print("  4. contact.html (contact form)")
+print("  5. post1.html (blog post 1)")
+print("  6. post2.html (blog post 2)")
+print("  7. post3.html (blog post 3)")
+print("  8. style.css (all styling)")
+print("  9. README.md (project info)")
+print(" 10. setup-guide.md (detailed setup instructions)")
+print("\nNext step: Follow the setup-guide.md to get your website online!")

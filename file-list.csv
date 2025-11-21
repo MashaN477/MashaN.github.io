@@ -1,0 +1,12 @@
+File Name,Description,What You Can Edit
+index.html,Homepage/Landing page - First page visitors see,"Welcome message, featured posts preview"
+about.html,About page - Tell your story,"Your name, bio, interests, why you started the blog"
+blog.html,Blog listing page - Shows all your posts,Add new post previews when you create new posts
+contact.html,Contact form page - Let people reach you,"Your contact info, form settings (needs Formspree setup)"
+post1.html,Sample blog post #1,Replace with your first real blog post
+post2.html,Sample blog post #2,Replace with your second blog post
+post3.html,Sample blog post #3,Replace with your third blog post
+style.css,All the styling/design for your website,"Colors, fonts, spacing, layout"
+README.md,Project documentation,Optional - describes your project
+setup-guide.md,Complete step-by-step setup instructions,Reference guide - don't edit
+quick-reference.md,Common tasks and how-to guide,Reference guide - don't edit
