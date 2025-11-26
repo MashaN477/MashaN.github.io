@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Your Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav>
+            <div class="nav-container">
+                <h1 class="logo">Your Site Name</h1>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="articles.html">Articles</a></li>
+                    <li><a href="research.html">Research</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="about-hero">
+            <div class="container">
+                <h2 class="section-title">Contact</h2>
+                <p class="section-intro">For questions, collaborations, professional connections, or to discuss science & holistic health.<br>Fill in the form below (see Formspree instructions under the form).</p>
+            </div>
+        </section>
+        <div style="max-width: 700px; margin:2rem auto 3rem auto; background: white; border-radius:16px; box-shadow: var(--shadow-soft); padding:2rem;">
+            <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+              <label for="name">Name:</label>
+              <input type="text" name="name" id="name" required style="width:100%;padding:0.6rem;margin-bottom:1rem;border-radius:7px;border:1px solid var(--color-moss);">
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email" required style="width:100%;padding:0.6rem;margin-bottom:1rem;border-radius:7px;border:1px solid var(--color-moss);">
+              <label for="subject">Subject:</label>
+              <input type="text" name="subject" id="subject" style="width:100%;padding:0.6rem;margin-bottom:1rem;border-radius:7px;border:1px solid var(--color-moss);">
+              <label for="message">Message:</label>
+              <textarea name="message" id="message" rows="5" required style="width:100%;padding:0.7rem;border-radius:7px;border:1px solid var(--color-moss);"></textarea>
+              <button type="submit" class="cta-primary" style="width:100%;margin:1.2rem 0 0 0;">Send Message</button>
+            </form>
+            <div style="background:var(--color-mint);padding:1.2rem;margin-top:2rem;border-radius:10px;color:var(--color-blue-deep);">
+                <strong>How to activate this form:</strong> Sign up for a free account at <a href="https://formspree.io">Formspree.io</a>. Create a form there and replace <code>YOUR_FORM_ID</code> with your form’s ID above.
+            </div>
+        </div>
+        <div style="text-align:center;padding:1.8rem;font-size:1rem;color:var(--color-slate);">
+            Or email me directly:<br>
+            <strong>your.email@example.com</strong>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 [Your Site Name].</p>
+            <p class="footer-subtitle">Designed for curiosity, connection, and discovery.</p>
+        </div>
+    </footer>
+</body>
+</html>
